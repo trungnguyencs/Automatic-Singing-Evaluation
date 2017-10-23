@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 OCT 2017 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 OCT 2017 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,6 +848,30 @@ LaTeX Warning: Label `p3' multiply defined.
 
 LaTeX Warning: Label `p3' multiply defined.
 
+
+LaTeX Warning: Label `p3' multiply defined.
+
+
+LaTeX Warning: Label `p3' multiply defined.
+
+
+LaTeX Warning: Label `p3' multiply defined.
+
+
+LaTeX Warning: Label `p3' multiply defined.
+
+
+LaTeX Warning: Label `p3' multiply defined.
+
+
+LaTeX Warning: Label `p3' multiply defined.
+
+
+LaTeX Warning: Label `p3' multiply defined.
+
+
+LaTeX Warning: Label `p3' multiply defined.
+
 )
 \openout1 = `Trung_Quang_Nam_proposal.aux'.
 
@@ -951,43 +975,78 @@ File: img/3.jpg Graphic file (type jpg)
  <use img/3.jpg>
 Package pdftex.def Info: img/3.jpg used on input line 157.
 (pdftex.def)             Requested size: 95.75848pt x 187.90344pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--193
-[]\T5/cmr/m/n/10.95 J.Bouguet  Cam-era cal-i-bra-tion tool-box-for MAT-LAB (201
-0)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--197
-[]\T5/cmr/m/n/10.95 J.Falcao, N.Hurtos  Projector-camera cal-i-bra-tion tool-bo
-x (2009)
- []
-
-[5pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) h
+ [5 <./img/3.jpg>]pdfTeX warning (ext4): destination with the same identifier (
+name{cite.p3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.177 \bibitem[3]{p3}
+                      Slaney, Malcolm, Kilian Weinberger, and William White.pdf
+TeX warning (ext4): destination with the same identifier (name{cite.p3}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.181 \bibitem[4]{p3}
+                      Daido, Ryunosuke, et al. "A System for Evaluating Sing...
+pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.183 \bibitem[5]{p3}
+                      Tsai, Wei-Ho, and Hsin-Chieh Lee. "Automatic evaluatio...
+pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.185 \bibitem[6]{p3}
+                      Qiu, Dongping. "Development of Scoring Algorithm for K...
+pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.187 \bibitem[7]{p3}
+                      Nakano, Tomoyasu, Masataka Goto, and Yuzuru Hiraga. "A...
+pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.189 \bibitem[8]{p3}
+                      Mayor, Oscar, Jordi Bonada, and Alex Loscos. "The sing...
+pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.191 \bibitem[9]{p3}
+                      Molina, Emilio, E. GÃ³mez, and I. Barbancho. "Automati...
+pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.193 \bibitem[10]{p3}
+                       Nakano, Tomoyasu, Masataka Goto, and Yuzuru Hiraga. "...
+pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.195 \bibitem[11]{p3}
+                       Eyben, Florian, et al. "Emotion in the singing voiceâ...
+pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.197 \bibitem[12]{p3}
+                       McFee, Brian, and Gert R. Lanckriet. "Metric learning...
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+[6pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.201 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.p3
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.201 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.p3
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.201 
-       <./img/3.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
+l.201 \end{document}
+                    ]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
  (./Trung_Quang_Nam_proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
 Package rerunfilecheck Info: File `Trung_Quang_Nam_proposal.out' has not change
 d.
 (rerunfilecheck)             Checksum: 7C761BDA2C9AC1195761CA81C93E367D;817.
@@ -995,25 +1054,25 @@ d.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
  ) 
 Here is how much of TeX's memory you used:
- 10005 strings out of 493014
- 151772 string characters out of 6133351
- 323257 words of memory out of 5000000
- 13410 multiletter control sequences out of 15000+600000
+ 10001 strings out of 493014
+ 151750 string characters out of 6133351
+ 323210 words of memory out of 5000000
+ 13408 multiletter control sequences out of 15000+600000
  16195 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,51p,8503b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,51p,8503b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/vntex/vnr/vnti10.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/vntex/vnr/vntt10.pfb>
-Output written on Trung_Quang_Nam_proposal.pdf (6 pages, 581072 bytes).
+Output written on Trung_Quang_Nam_proposal.pdf (6 pages, 583688 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
+ 118 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -160,48 +160,41 @@ Besides we want to extract the information not only from the audio files (conten
 
 Separating the vocal and non-vocal segments of song as a preprocessing step is also considered. However this turns out to be a hard problem: as oppose to professional multi-channel audio recordings, our mp3 files only have 1-2 channels which is very difficult to separate the vocal and non-vocal segments. We will continue to find if there is a solution for this problem.
 
-%Our workflow would be as follows. First, we will separate the vocal and non-vocal segments of song. Then, we extract the acoustic features from the singing part. Next, 
-%
-%we will build our model based Metric Learning to Rank [12] to automatically learn the distance metric, rather than embed our songs in a Euclidian metric space. This distance metric that have been learned will then be used in a learning to rank algorithm, based on Structural SVM.
-%
-% In [12], the authors derived a general metric learning algorithm which optimizes the permutation of data, which is the output of a learning to rank algorithm, induced by distances in the learned metric. In other words, they proposed a metric learning algorithm optimized for rank-based loss function.
-
-%In this project, we do the feature extraction based on available toolboxes instead of doing low-level signal processing and transform (FFT, Wavelet, etc.). Some of toolboxes which could be used are described as follows:
-
-%\begin{itemize}
-%\item Aubio: A library that extracts high level features such as beat tracking, tempo, melody.
-%\item Timbre Toolbox: A Matlab toolbox for high and low level feature extraction, providing different set of features to the MIR Toolbox, specifically made efficient for identifying timbre.
-%\item YAAFE: A library for Low level feature extraction, designed for computational efficiency and batch processing, written in C++ with a CLI and bindings for Python and Matlab.
-%\item pyAudioAnalysis: An open Python library that provides a wide range of audio-related functionalities focusing on feature extraction, classification, segmentation and visualization issues.
-%\item The Echo Nest Analyze API: An online system which can receive a song sent by users, analyze the acoustics and provide features to characterize global properties of the songs.
-%\end{itemize}
-
 \subsection{Evaluation}
 
+Evaluation whether the score given a user's recording is good or bad is a hard task since it highly depends on human's sensuality. In the materials that we have read, the most common way to evaluation is asking for evaluation from music professionals and then compare the score they give with the scores from the system[5][7]. 
+
+From this, we think our model can be evaluated by doing a survey among a group of ~20 people of how they grade of how good the singer is in a scale from 1-5 and then compare the score from our system with the same scale.
+
 \begin{thebibliography}{99}
-\bibitem[1]{p3} E.L. Hall, J.B.K. Tio, C.A. McPherson, F.A. Sadjadi
-\newblock Measuring Curved Surfaces for Robot Vision
-\newblock \emph{Computer} Vol.15, no. 12, pp. 42-54 (1982)
+\bibitem[1]{p3} Berenzweig, Adam, et al.
+\newblock "A large-scale evaluation of acoustic and subjective music-similarity measures."
+\newblock Computer Music Journal 28.2 (2004): 63-76.
 
-\bibitem[2]{p3} Z.Zhang
-\newblock Flexible new technique for camera calibration
-\newblock IEEE Transactions on Pattern Analysis and Machine Intelligenc, vol. 22, no. 11, pp. 1330-1334 (2000)
+\bibitem[2]{p3} Moffat, David, David Ronan, and Joshua D. Reiss.
+\newblock "An evaluation of audio feature extraction toolboxes." (2015). Computer Music Journal 28.2 (2004): 63-76.
 
-\bibitem[3]{p3} J.Bouguet
-\newblock Camera calibration toolboxfor MATLAB (2010)
-\newblock http://www.vision.caltech.edu/bouguetj/calib doc/
+\bibitem[3]{p3} Slaney, Malcolm, Kilian Weinberger, and William White.
+\newblock "An evaluation of audio feature extraction toolboxes." (2015).
+\newblock "Learning a metric for music similarity." International Symposium on Music Information Retrieval (ISMIR). 2008.
 
-\bibitem[4]{p3} J.Falcao, N.Hurtos
-\newblock Projector-camera calibration toolbox (2009)
-\newblock http://code.google.com/p/procamcalib/
+\bibitem[4]{p3} Daido, Ryunosuke, et al. "A System for Evaluating Singing Enthusiasm for Karaoke." ISMIR. 2011.
 
-\bibitem[5]{p2} Paul M.Griffin, Lakshmi S.Narasimhan and Sound R. Yee
-\newblock Generation of uniquely encoded light patterns for range data acquisition
-\newblock \emph{Pattern Recognition} Vol. 25, pp. 609-616 (1992)
+\bibitem[5]{p3} Tsai, Wei-Ho, and Hsin-Chieh Lee. "Automatic evaluation of karaoke singing based on pitch, volume, and rhythm features." IEEE Transactions on Audio, Speech, and Language Processing 20.4 (2012): 1233-1243.
 
-\bibitem[6]{p1} Yi-Chih Hsieh
-\newblock Decoding structured light patterns for three-dimensional imaging systems
-\newblock \emph{Pattern Recognition} Vol. 34, pp. 343-349 (2001) 
+\bibitem[6]{p3} Qiu, Dongping. "Development of Scoring Algorithm for Karaoke Computer Games." (2012).
+
+\bibitem[7]{p3} Nakano, Tomoyasu, Masataka Goto, and Yuzuru Hiraga. "An automatic singing skill evaluation method for unknown melodies using pitch interval accuracy and vibrato features." Ninth International Conference on Spoken Language Processing. 2006.
+
+\bibitem[8]{p3} Mayor, Oscar, Jordi Bonada, and Alex Loscos. "The singing tutor: Expression categorization and segmentation of the singing voice." Proceedings of the AES 121st Convention. 2006.
+
+\bibitem[9]{p3} Molina, Emilio, E. Gómez, and I. Barbancho. "Automatic scoring of singing voice based on melodic similarity measures." Master's thesis, Universitat Pompeu Fabra, Barcelona, Spain (2012): 9-14.
+
+\bibitem[10]{p3} Nakano, Tomoyasu, Masataka Goto, and Yuzuru Hiraga. "An automatic singing skill evaluation method for unknown melodies using pitch interval accuracy and vibrato features." Ninth International Conference on Spoken Language Processing. 2006.
+
+\bibitem[11]{p3} Eyben, Florian, et al. "Emotion in the singing voice—a deeperlook at acoustic features in the light ofautomatic classification." EURASIP Journal on Audio, Speech, and Music Processing 2015.1 (2015): 1-9.Universitat Pompeu Fabra, Barcelona, Spain (2012): 9-14.
+
+\bibitem[12]{p3} McFee, Brian, and Gert R. Lanckriet. "Metric learning to rank." Proceedings of the 27th International Conference on Machine Learning (ICML-10). 2010.
 
 \end{thebibliography}
 
