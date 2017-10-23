@@ -1,5 +1,5 @@
 %\documentclass{article}
-\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+\documentclass[paper=a4, fontsize=11pt, DIV=13]{scrartcl}
 
 \usepackage{graphicx}
 \usepackage{longtable}
@@ -62,7 +62,7 @@ MIR is an interdisciplinary research that lies on the edges of musicology, psych
 
 Basic of a MIR system, including segmentation, feature extraction, analysis is represented as in the figure below.
 \begin{center}
-\includegraphics[scale=0.2]{img/method.png}\\
+\includegraphics[scale=0.3]{img/method.png}\\
 \textit{Basic of a MIR system}\\
 \end{center}
 
@@ -129,7 +129,7 @@ We then built a scraper using \textit{BeautifulSoup4} library to extract the rec
 Aside from the audio files, text information from the recordings and the users were also extracted and saved as a csv file shown below:
  
  \begin{center}
-\includegraphics[scale=0.235]{img/1.png}\\
+\includegraphics[scale=0.4]{img/1.png}\\
 \textit{Extracted songs and users' information}\\
 \end{center}
 
@@ -145,7 +145,7 @@ Our workflow follows the \textit{Music information retrieval process} presented 
 We had experimented extracting the 20 MFCC features from a sample audio file in our dataset. We will continue to find more information about these features to decide which are useful for our problems.
 
 \begin{center}
-\includegraphics[scale=0.27]{img/2.png}\\
+\includegraphics[scale=0.4]{img/2.png}\\
 \textit{Heat map of 20 MFCC features extracted from a sample audio file in our dataset}\\
 \end{center}
 
@@ -154,7 +154,7 @@ Once this step is finished, we may experiment building our model based Metric Le
 Besides we want to extract the information not only from the audio files (content-features), but also from the information in the we retrieved (reference feature). These features may act as the groundtruth for our model. One metric which we find interesting is the number of likes.  Below is the statistics for the average number of likes in each time frame of 100 days. Except from some outliers (which turns out to be good singers who records several recordings in a short time), the average numbers of like is quite stable. From this analysis, we may conclude that this information may not heavily dependent on the recording's age, and therefore the number of likes may be good good for evaluating whether a recording is good or bad.
 
 \begin{center}
-\includegraphics[scale=0.3]{img/3.jpg}\\
+\includegraphics[scale=0.5]{img/3.jpg}\\
 \textit{Average number of likes for the recordings in each time frame of 100 days}\\
 \end{center}
 

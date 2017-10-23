@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 OCT 2017 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 OCT 2017 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -60,17 +60,24 @@ Package typearea, 2016/05/10 v3.20 KOMA-Script package (type area)
 \ta@vblk=\skip44
 \ta@temp=\skip45
 \footheight=\skip46
+
+Package typearea Warning: Bad type area settings!
+(typearea)                The detected line width is about 17%
+(typearea)                larger than the heuristically detected line width.
+(typearea)                You should e.g. decrease DIV, increase fontsize
+(typearea)                or change papersize.
+
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 13
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \textwidth      = 459.6215pt
+(typearea)              DIV departure   = -17%
+(typearea)              \evensidemargin = -3.32678pt
+(typearea)              \oddsidemargin  = -3.32678pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
+(typearea)              \textheight     = 650.20029pt
+(typearea)              \topmargin      = -44.6664pt
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
@@ -948,7 +955,7 @@ File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 File: img/method.png Graphic file (type png)
  <use img/method.png>
 Package pdftex.def Info: img/method.png used on input line 65.
-(pdftex.def)             Requested size: 175.25163pt x 72.6702pt.
+(pdftex.def)             Requested size: 262.88414pt x 109.00809pt.
  [1
 
 
@@ -963,81 +970,83 @@ File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 File: img/1.png Graphic file (type png)
  <use img/1.png>
 Package pdftex.def Info: img/1.png used on input line 132.
-(pdftex.def)             Requested size: 263.47939pt x 142.70818pt.
+(pdftex.def)             Requested size: 448.46756pt x 242.9032pt.
  [3 <./img/1.png>] <img/2.png, id=77, 962.59625pt x 995.72pt>
 File: img/2.png Graphic file (type png)
  <use img/2.png>
 Package pdftex.def Info: img/2.png used on input line 148.
-(pdftex.def)             Requested size: 259.90446pt x 268.84799pt.
+(pdftex.def)             Requested size: 385.03168pt x 398.28094pt.
  [4 <./img/2.png>]
 <img/3.jpg, id=83, 319.1925pt x 626.34pt>
 File: img/3.jpg Graphic file (type jpg)
  <use img/3.jpg>
 Package pdftex.def Info: img/3.jpg used on input line 157.
-(pdftex.def)             Requested size: 95.75848pt x 187.90344pt.
- [5 <./img/3.jpg>]pdfTeX warning (ext4): destination with the same identifier (
-name{cite.p3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.177 \bibitem[3]{p3}
-                      Slaney, Malcolm, Kilian Weinberger, and William White.pdf
-TeX warning (ext4): destination with the same identifier (name{cite.p3}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.181 \bibitem[4]{p3}
-                      Daido, Ryunosuke, et al. "A System for Evaluating Sing...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.183 \bibitem[5]{p3}
-                      Tsai, Wei-Ho, and Hsin-Chieh Lee. "Automatic evaluatio...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.185 \bibitem[6]{p3}
-                      Qiu, Dongping. "Development of Scoring Algorithm for K...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.187 \bibitem[7]{p3}
-                      Nakano, Tomoyasu, Masataka Goto, and Yuzuru Hiraga. "A...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.189 \bibitem[8]{p3}
-                      Mayor, Oscar, Jordi Bonada, and Alex Loscos. "The sing...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.191 \bibitem[9]{p3}
-                      Molina, Emilio, E. GÃ³mez, and I. Barbancho. "Automati...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.193 \bibitem[10]{p3}
-                       Nakano, Tomoyasu, Masataka Goto, and Yuzuru Hiraga. "...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.195 \bibitem[11]{p3}
-                       Eyben, Florian, et al. "Emotion in the singing voiceâ...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.197 \bibitem[12]{p3}
-                       McFee, Brian, and Gert R. Lanckriet. "Metric learning...
+(pdftex.def)             Requested size: 159.59586pt x 313.16922pt.
+ [5 <./img/3.jpg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+
 [6pdfTeX warning (ext4): destination with the same identifier (name{cite.p3}) h
 as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.p3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.p3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.p3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.p3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.p3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.p3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.p3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.p3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.p3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.p3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1057,10 +1066,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
  ) 
 Here is how much of TeX's memory you used:
- 10001 strings out of 493014
- 151750 string characters out of 6133351
- 323210 words of memory out of 5000000
- 13408 multiletter control sequences out of 15000+600000
+ 10004 strings out of 493014
+ 151790 string characters out of 6133351
+ 324231 words of memory out of 5000000
+ 13411 multiletter control sequences out of 15000+600000
  16195 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,51p,8503b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1069,7 +1078,7 @@ al/texlive/2016/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/vntex/vnr/vnti10.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/vntex/vnr/vntt10.pfb>
-Output written on Trung_Quang_Nam_proposal.pdf (6 pages, 583688 bytes).
+Output written on Trung_Quang_Nam_proposal.pdf (6 pages, 583494 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream
