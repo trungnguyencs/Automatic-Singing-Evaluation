@@ -10,7 +10,7 @@ MIR is an interdisciplinary research that lies on the edges of musicology, psych
 In our project, we focus on learning to rank the performance of vocal singing.
 
 Basic of a MIR system, including segmentation, feature extraction, analysis is represented as in the figure below.
-![Basic of a MIR system](CSE519-2017-111752939/Score_Your_Singing/MIR.png)
+![Basic of a MIR system](MIR.png)
 ## Feature representation
 Music analysis often requires some summarising and is achieved by feature extraction, especially when the audio content is analysed and machine learning is to be applied. The purpose is to reduce the sheer quantity of data down to a manageable set of values so that learning can be performed within a reasonable time-frame. One common feature extracted is the Mel-Frequency Cepstral Coefficient (MFCC).
 ### Mel-Frequency Cepstral Coefficient (MFCC) 
