@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Background}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Music information retrieval \(MIR\)}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Automatic Evaluation of Karaoke Singing}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Feature representation}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Feature extraction}{subsection.1.3}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Mel-Frequency Cepstral Coefficient \(MFCC\)}{subsection.1.3}% 6
+\BOOKMARK [1][-]{section.2}{Related work}{}% 7
+\BOOKMARK [1][-]{section.3}{Our Approach}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Dataset}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Tools and libraries}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Method and Experiment}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Evaluation}{section.3}% 12
