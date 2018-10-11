@@ -1,1 +1,2 @@
-# CSE519-2017-111752939
+Data Science Project Fall 2017
+Stony Brook University
